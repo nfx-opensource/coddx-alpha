@@ -18,6 +18,8 @@ TODO.md Kanban Board
 
 ### In Progress
 
+- [x] Support H4 headings (####) as sub-sections within columns
+- [x] Add GitHub workflows and Dependabot configuration
 - [ ] Task menu: add hyperlinks ?
 - [ ] Smart positioning for Task Menu
 - [ ] Change icon on Marketplace
@@ -26,10 +28,20 @@ TODO.md Kanban Board
 
 ### Done ✓
 
-- [x] Migrate from deprecated react-beautiful-dnd to @dnd-kit 11/09/2025
-- [x] Remove yarn.lock, use npm as package manager 11/09/2025
-- [x] 🐞 Bug: Fix backtick ( ` ) rendering 11/09/2025
-- [x] Major dependency updates and security fixes 11/09/2025
+#### v0.4.1 (2025-11-09)
+
+- [x] Migrate from deprecated react-beautiful-dnd to @dnd-kit
+- [x] Remove yarn.lock, use npm as package manager
+
+#### v0.4.0 (2025-11-09)
+
+- [x] 🐞 Bug: Fix backtick ( ` ) rendering (XSS vulnerability)
+- [x] Major dependency updates and security fixes
+
+#### v0.3.x (2021-2022)
+
+- [x] Fix broken documentation links
+- [x] Markdown text formats 05/21/2021
 - [x] Markdown text formats 05/21/2021
 - [x] New task should be at the top 05/20/2021
 - [x] Dropdown option to help about adding more todo files 05/19/2021
