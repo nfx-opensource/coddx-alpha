@@ -1,5 +1,29 @@
 # Change Log
 
+## [0.4.0] - 2025-11-09
+
+### Dependencies
+
+- Updated all major build tools and dependencies
+- Replaced deprecated `vscode` package with `@types/vscode` 1.70.0
+- Modernized test runner from deprecated `vscode/lib/testrunner` to Mocha-based setup
+
+### Security Fixes
+
+- Fixed template literal XSS vulnerability in webview data injection (now using JSON.stringify())
+- Updated VS Code webview API from deprecated `vscode-resource:` scheme to modern `asWebviewUri()`
+- Updated Content Security Policy to use `webview.cspSource`
+
+### Bug Fixes
+
+- **Critical**: Fixed backtick rendering bug in Task Board webview that prevented TODO.md files with code blocks from displaying correctly
+
+### Removed
+
+- Removed deprecated `tslint` package (no longer maintained)
+- Removed deprecated `vscode` package
+- Removed `@types/marked` (no longer needed)
+
 ## [0.3.0] - 2021-05-24
 
 - Task title supports markdown now for styling, hyperlinks, simple html or even img tags.
