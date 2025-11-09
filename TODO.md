@@ -6,6 +6,7 @@ TODO.md Kanban Board
 
 ### Todo
 
+- [ ] 🐞 Bug: Fix backtick ( ` ) rendering
 - [ ] Publish on open-vsx.org
 - [ ] Get Todo\*.md files for the dropdown
 - [ ] Rename Git Repos
@@ -26,6 +27,7 @@ TODO.md Kanban Board
 
 ### Done ✓
 
+- [x] Major dependency updates and security fixes 11/09/2025
 - [x] Markdown text formats 05/21/2021
 - [x] New task should be at the top 05/20/2021
 - [x] Dropdown option to help about adding more todo files 05/19/2021
