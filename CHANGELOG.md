@@ -1,5 +1,24 @@
 # Change Log
 
+## [0.4.1] - 2025-11-09
+
+### Dependencies
+
+- Migrated from deprecated `react-beautiful-dnd` to modern `@dnd-kit` for drag-and-drop functionality
+- Replaced render props pattern with React hooks (`useSortable`)
+
+### Improvements
+
+- Switched from yarn to npm as package manager
+- Removed unused dependencies (react-redux, redux, css-box-model, etc.)
+- Updated to use modern React hooks pattern throughout drag-and-drop components
+- Added `esModuleInterop` to TypeScript config for better ES module compatibility
+
+### Removed
+
+- Removed `react-beautiful-dnd` (deprecated since 2022)
+- Removed `yarn.lock` in favor of `package-lock.json`
+
 ## [0.4.0] - 2025-11-09
 
 ### Dependencies
