@@ -18,8 +18,6 @@ TODO.md Kanban Board
 
 ### In Progress
 
-- [x] Support H4 headings (####) as sub-sections within columns
-- [x] Add GitHub workflows and Dependabot configuration
 - [ ] Task menu: add hyperlinks ?
 - [ ] Smart positioning for Task Menu
 - [ ] Change icon on Marketplace
@@ -27,6 +25,11 @@ TODO.md Kanban Board
 - [ ] 🐞 Bug: it flashes the default data, then loads the real data
 
 ### Done ✓
+
+#### v0.4.2 (2025-11-09)
+
+- [x] Support H4 headings (####) as sub-sections within columns
+- [x] Add GitHub workflows
 
 #### v0.4.1 (2025-11-09)
 

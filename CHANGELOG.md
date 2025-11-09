@@ -1,5 +1,23 @@
 # Change Log
 
+## [0.4.2] - 2025-11-09
+
+### Features
+
+- Added support for H4 headings (`####`) as sub-sections within Kanban columns
+- Added GitHub workflows for automated CI/CD and dependency management
+
+### Improvements
+
+- Enhanced TODO.md parser to handle heading hierarchy correctly
+- H4 headings now display as bold tasks under their parent H3 column instead of creating separate columns
+- Organized project TODO.md by release versions using git history
+
+### Development
+
+- Added CI workflow for automated building and testing
+- Added release workflow for automated VSIX packaging and GitHub releases
+
 ## [0.4.1] - 2025-11-09
 
 ### Dependencies
