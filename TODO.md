@@ -26,6 +26,8 @@ TODO.md Kanban Board
 
 ### Done ✓
 
+- [x] Migrate from deprecated react-beautiful-dnd to @dnd-kit 11/09/2025
+- [x] Remove yarn.lock, use npm as package manager 11/09/2025
 - [x] 🐞 Bug: Fix backtick ( ` ) rendering 11/09/2025
 - [x] Major dependency updates and security fixes 11/09/2025
 - [x] Markdown text formats 05/21/2021
